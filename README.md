@@ -31,3 +31,5 @@ Build a simple Java HelloWorld app with Maven and run it through Jenkins.
 
 ## Tools
 Java | Maven | Jenkins | Git & GitHub
+
+# The documentation file in the repository explains each step in detail with screenshots.
