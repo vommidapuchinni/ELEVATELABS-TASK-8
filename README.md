@@ -14,19 +14,19 @@ Build a simple Java HelloWorld app with Maven and run it through Jenkins.
 
 ## Screenshots
 
-Java File
+### Java File
 ![JAVA file](screenshots/JAVAfile.png)
 
-POM File  
+### POM File  
 ![POM file](screenshots/POMfile.png)
 
-Jenkins Build Success
+### Jenkins Build Success
 ![Jenkins Build Success](screenshots/jenkinsconsole.png)
 
-Locally Built Jar 
+### Locally Built Jar 
 ![Locally Build](screenshots/locallybuild.png)
 
-Locally Accessed  
+### Locally Accessed  
 ![Locally Accessed](screenshots/locallyaccessed.png)
 
 ## Tools
