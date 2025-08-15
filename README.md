@@ -3,7 +3,6 @@
 ## Goal
 Build a simple Java HelloWorld app with Maven and run it through Jenkins.
 
-
 ## Steps
 1. Created `HelloWorld.java`  
 2. Added `pom.xml` for Maven build  
@@ -13,16 +12,17 @@ Build a simple Java HelloWorld app with Maven and run it through Jenkins.
 6. Created Jenkins Freestyle job → `clean package`  
 7. Built project in Jenkins → `BUILD SUCCESS`
 
-
 ## Screenshot
-![JAVAfile](screeshots/JAVAfile.png)
+![JAVA file](screenshots/JAVAfile.png)
 
-![POMfile](screenshots/POMfile.png)
+![POM file](screenshots/POMfile.png)
 
-![JenkinsBuildSuccess](screenshots/jenkinsconsole.png)
+![Jenkins Build Success](screenshots/jenkins_console.png)
 
-![LocallyBuild](screenshots/locallybuild.png)
+![Locally Build](screenshots/locally_build.png)
 
-![Locallyaccessed](screenshots/locallyaccessed.png)
+![Locally accessed](screenshots/locally_accessed.png)
+
 ## Tools
 Java | Maven | Jenkins | Git & GitHub
+  
