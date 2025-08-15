@@ -4,45 +4,30 @@
 Build a simple Java HelloWorld app with Maven and run it through Jenkins.
 
 ## Steps
-1. Created HelloWorld.java 
+1. Created HelloWorld.java  
 2. Added pom.xml for Maven build  
-3. Configured .gitignore to skip target/  
+3. Configured .gitignore to skip target/
 4. Pushed project to GitHub 
-5. Run Jenkins via Docker: docker run --name jenkins -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts   
-6. Created Jenkins Freestyle job → clean package
-7. Built project in Jenkins → BUILD SUCCESS
+5. Run Jenkins via Docker: docker run --name jenkins -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts 
+6. Created Jenkins Freestyle job → clean package  
+7. Built project in Jenkins → `BUILD SUCCESS`
 
-## Screenshot
-<<<<<<< HEAD
+## Screenshots
 
-### JAVA file
-![JAVA file](screeshots/JAVAfile.png)
-=======
+Java File
 ![JAVA file](screenshots/JAVAfile.png)
->>>>>>> 5b4f6677b6ee7f0bd2bf8caa9c0176b4c6c38f35
 
-### POM file
+POM File  
 ![POM file](screenshots/POMfile.png)
 
-<<<<<<< HEAD
-### Jenkins console
+Jenkins Build Success
 ![Jenkins Build Success](screenshots/jenkinsconsole.png)
 
-### Local build
+Locally Built Jar 
 ![Locally Build](screenshots/locallybuild.png)
 
-### local access
-![Locally accessed](screenshots/locallyaccessed.png)
+Locally Accessed  
+![Locally Accessed](screenshots/locallyaccessed.png)
 
-
-=======
-![Jenkins Build Success](screenshots/jenkins_console.png)
-
-![Locally Build](screenshots/locally_build.png)
-
-![Locally accessed](screenshots/locally_accessed.png)
-
->>>>>>> 5b4f6677b6ee7f0bd2bf8caa9c0176b4c6c38f35
 ## Tools
 Java | Maven | Jenkins | Git & GitHub
-  
